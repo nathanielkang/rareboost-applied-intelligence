@@ -8,15 +8,13 @@
 
 ## Author affiliation (mandatory)
 
-**Do not** write “IT College” (or “IT대학”) anywhere in this submission pack.
+**Do not** name any college-tier unit between the department and the university anywhere in this submission pack.
 
 Use only:
 
 - **Affiliation line:** School of Computer Science and Engineering, Kyungpook National University, Daegu, South Korea.
 
-Rationale: the author’s institutional identity for this line of papers is the **department name only**; the college layer must not appear in `main.tex`, the cover letter, Editorial Manager, or proofs.
-
-（中文備註：**不要**在投稿與校對稿中出現 IT College／IT대학；**只**寫「School of Computer Science and Engineering」+ 慶北大學 + 城市／國家。）
+Rationale: the author’s institutional identity for this line of papers is the **department name only**; do **not** insert a college-level line between the School and the University in `main.tex`, the cover letter, Editorial Manager, or proofs (including author proof).
 
 ## Origin
 
@@ -28,7 +26,7 @@ Journal submission pack for *Applied Intelligence*. The manuscript and code were
 |---|---|
 | `1_Manuscript/` | `main.tex`, `references.bib`, `figure_prompts.txt`, `sn-jnl.cls`, `sn-basic.bst`, `figures/` |
 | `2_Code/` | Reference implementation: source, configs, and scripts. **No bundled experiment outputs** (run `scripts/run_experiments.py` to regenerate `results/` locally). |
-| `cover_letter.tex` | One-page cover letter to the Editor-in-Chief |
+| `3_Others/cover_letter.tex` | One-page cover letter to the Editor-in-Chief |
 
 ## After every `main.tex` change (mandatory)
 
@@ -41,9 +39,7 @@ pdflatex main
 pdflatex main
 ```
 
-Do **not** end the task with “user can compile later.” If `main.pdf` is locked (viewer open), use a temporary `-jobname=…` build, then retry `main.pdf` after closing the viewer.
-
-（中文：**每次**改完 `main.tex` 都要 **自動跑完** 上述編譯並更新 `main.pdf`；不可只改 TeX 不交 PDF。）
+Do **not** end the task with “user can compile later.” If `main.pdf` is locked (viewer open), use a temporary `-jobname=…` build, then retry `main.pdf` after closing the viewer. After any edit to `main.tex`, agents must run the full compile sequence above and refresh `main.pdf` in the same task.
 
 ## Template (December 2024, official)
 
