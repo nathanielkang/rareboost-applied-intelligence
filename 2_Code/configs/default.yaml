@@ -1,0 +1,26 @@
+rareboost:
+  booster: xgboost
+  loss: relevance_mse
+  relevance_method: kde
+  relevance_threshold: 0.5
+  n_bins: 20
+  adaptive_bandwidth: true
+  smoothing: true
+  n_estimators: 500
+  max_depth: 6
+  learning_rate: 0.1
+  early_stopping_rounds: 50
+
+experiment:
+  datasets:
+    - abalone
+    - california_housing
+    - bike_sharing
+    - air_quality
+    - wine_quality
+    - cpu_activity
+    - insurance
+    - energy_efficiency
+    - concrete
+  n_seeds: 5
+  test_size: 0.2

@@ -1,0 +1,37 @@
+# LaTeX auxiliary (regenerate locally)
+1_Manuscript/*.aux
+1_Manuscript/*.log
+1_Manuscript/*.out
+1_Manuscript/*.toc
+1_Manuscript/*.bbl
+1_Manuscript/*.blg
+1_Manuscript/*.synctex.gz
+1_Manuscript/*.fdb_latexmk
+1_Manuscript/*.fls
+1_Manuscript/main_build.*
+
+# Large duplicate of official template (keep sn-jnl.cls + bst in root)
+1_Manuscript/sn-article-template/
+1_Manuscript/Download+the+journal+article+template+package+(December+2024+version).zip
+
+# Cover letter aux (if compiled in 3_Others)
+3_Others/*.aux
+3_Others/*.log
+
+# Python / experiments
+2_Code/__pycache__/
+2_Code/.pytest_cache/
+2_Code/.venv/
+2_Code/venv/
+2_Code/results/
+*.pyc
+*.egg-info/
+
+# Internal / non-manuscript (do not publish)
+1_Manuscript/Springer OA Manual.pdf
+2_Code/archives/
+
+# Local / secrets
+.env
+.DS_Store
+Thumbs.db
