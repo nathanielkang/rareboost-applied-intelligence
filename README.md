@@ -31,13 +31,10 @@ python scripts/run_experiments.py --datasets abalone california_housing --seeds 
 
 ## Layout
 
-| Path | Purpose |
-|------|---------|
-| `2_Code/` | Python package, configs, and scripts (this is what you run) |
-| `1_Manuscript/` | LaTeX paper sources and bibliography (optional if you only need the code) |
+This repository tracks **`2_Code/`** only (implementation). The paper lives in the private submission pack, not on GitHub.
 
 See `2_Code/README.md` for metrics, method summary, and package tree.
 
 ## Citation
 
-Cite the paper that matches the version you use. Draft bibliography entries are in `1_Manuscript/references.bib`; update from the publisher landing page once the article is official.
+Cite the published article when available (journal landing page and DOI). This repo does not host the manuscript or BibTeX sources.
