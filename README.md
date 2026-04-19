@@ -31,10 +31,8 @@ python scripts/run_experiments.py --datasets abalone california_housing --seeds 
 
 ## Layout
 
-This repository tracks **`2_Code/`** only (implementation). The paper lives in the private submission pack, not on GitHub.
+This repository tracks **`2_Code/`** only (implementation). 
 
 See `2_Code/README.md` for metrics, method summary, and package tree.
 
-## Citation
 
-Cite the published article when available (journal landing page and DOI). This repo does not host the manuscript or BibTeX sources.
